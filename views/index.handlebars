@@ -1,12 +1,13 @@
 <div class= "container">
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid" id = "jumbotron">
     <div class="container">
       <h1 class="display-3">Burger Town</h1>
       <p class="lead">Add and remove Burgers</p>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6" id = "colLeft">
+      <br>
       <h2>Uneaten Burgers!</h2>
       <br>
       <ul>
@@ -27,7 +28,8 @@
       </ul>
       <br>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6" id = "colRight">
+      <br>
       <h2>Eaten Burgers!</h2>
       <br>
       <ul>
@@ -46,7 +48,8 @@
     </div>
   </div>
   <div class ="row">
-    <div class="col-md-12">
+    <div class="col-md-12" id = "colBottom">
+      <br>
       <h2>Add a Burger</h2>
       <form class="create-update-form" action="/" method="POST">
         <div class="form-group">
@@ -55,7 +58,7 @@
           <input type="hidden" name="devoured" value="0">
         </div>
         <button type="submit">Add Burger</button>
-        <br>
+        <br><br>
       </form>
     </div>
   </div> 
