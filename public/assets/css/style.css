@@ -9,13 +9,13 @@
 #colRight {
 	background-color: #4aaaa5; 
 	border-radius: 6px;
-	width: 47%;
+	width: 35%;
 }
 
 #colLeft {
 	background-color: #4aaaa5;
 	border-radius: 6px;
-	width: 47%;
+	width: 35%;
 	margin-right: 40px;
 	margin-left: 15px;
 }
@@ -28,3 +28,16 @@
 	width: 97%;
 }
 
+.burger {
+	height: 250px;
+	width: 200px; 
+	margin: auto;
+	display: block;
+}
+
+#colTop {
+	margin-bottom: 30px; 
+	width: 20%;
+	margin-right: 30px;
+	margin-left: 20px;
+}
